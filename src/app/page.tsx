@@ -1,24 +1,19 @@
-"use client";  // Ensures this runs on the client-side in Next.js
+import { HeroSection } from "../../components/sections/hero";
+import { StatisticsSection } from "../../components/sections/statistics";
+import { MissionSection } from "../../components/sections/mission";
+import { SocialSection } from "../../components/sections/social";
+import { Footer } from "../../components/sections/footer";
+import { Header } from "../../components/header";
 
-import { useEffect } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';  // Make sure this path is correct
-import './globals.css';  // Include your global CSS
-
-const Page = () => {
-  useEffect(() => {
-    const rootElement = document.getElementById('root');
-    if (rootElement) {
-      const root = createRoot(rootElement);
-      root.render(<App />);
-    }
-  }, []);
-
+export default function Home() {
   return (
-    <div>
-      <div id="root"></div>  {/* The root element where your app will be rendered */}
-    </div>
+    <main className="bg-[#0A0B1A]">
+      <Header />
+      <HeroSection />
+      <StatisticsSection />
+      <MissionSection />
+      <SocialSection />
+      <Footer />
+    </main>
   );
-};
-
-export default Page;
+}

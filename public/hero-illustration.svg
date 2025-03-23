@@ -1,0 +1,6 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified placeholder SVG for the hero illustration -->
+  <rect width="800" height="400" fill="none"/>
+  <circle cx="400" cy="200" r="150" fill="#E97777" opacity="0.1"/>
+  <circle cx="400" cy="200" r="100" fill="#7CB9E8" opacity="0.1"/>
+</svg>
