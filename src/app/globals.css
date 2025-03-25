@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*   --background: #ffffff;
+  --foreground: #171717; */
+  --background: #070b1f;
+  --foreground: #ededed;
+  --primary: #ef565d;
+  --secondary: #73b9eb;
+  --blue: #53ACEC;
+  --grey: #CACACA;
+  --tertiary: #071117;
+  --link: #2D9CDB;
+  --bg-secondary: #12092a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  font-family: var(--font-fustat), Arial, Helvetica, sans-serif;
+}
+
+.font-kantumruy {
+  font-family: 'Kantumruy', var(--font-fustat), Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+
+
+
+p{
+  font-family: var(--font-fustat);
+}
+
+.nft-card-wrapper {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
