@@ -77,14 +77,14 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <Image src="/twitter.png" alt="Logo" width={30} height={30} />
+                <Image src="/assets/twitter.png" alt="Logo" width={30} height={30} />
               </a>
               <Link href="https://t.me/volunchain"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors -mt-1"
                 >
-                <Image src="/telegram.png" alt="Logo" width={34} height={34} />
+                <Image src="/assets/telegram.png" alt="Logo" width={34} height={34} />
               </Link>
               <a
                 href="https://github.com/volunchain"
