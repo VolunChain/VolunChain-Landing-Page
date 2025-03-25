@@ -1,9 +1,33 @@
 @import "tailwindcss";
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--duration, 40s) linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse var(--duration, 40s) linear infinite;
+}
+
 
 :root {
-/*   --background: #ffffff;
-  --foreground: #171717; */
   --background: #070b1f;
   --foreground: #ededed;
   --primary: #ef565d;

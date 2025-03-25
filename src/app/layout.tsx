@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Volunchain",
   description: "A platform revolutionizing volunteer work with blockchain technology, connecting volunteers and organizations with transparency and efficiency.",
   keywords: "Volunteering, Blockchain, NFTs, Community, Charity",
-  authors: [{ name: "Volunchain Team" }],
+  authors: [{ name: "Powered by Oppia Software Labs" }],
 };
 
 export default function RootLayout({
@@ -37,7 +37,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fustat.variable}`}
     >
       <head>
-        <link rel="icon" href="/logo.png" sizes="any" />
+        <link rel="icon" href="/logo_vc.svg" sizes="any" />
       </head>
       <body className="flex flex-col justify-between min-h-screen text-text-light overflow-x-hidden">
         <main className="flex-grow">{children}</main>

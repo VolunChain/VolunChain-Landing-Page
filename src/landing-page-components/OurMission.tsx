@@ -48,7 +48,7 @@ const OurMission = () => {
             variants={fadeInUp}
           >
             <Image
-              src="/ourMission.png"
+              src="/assets/ourMission.png"
               alt="Illustration of volunteers"
               width={500}
               height={500}

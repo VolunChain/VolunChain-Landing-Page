@@ -25,10 +25,10 @@ function HeroSection() {
           <Button
             variant="secondary"
             textColor="secondary"
-            className="mb-4 flex items-center gap-2 px-4 sm:px-6 py-2 rounded-full bg-background-primary hover:border-secondary/50 transition-colors text-sm sm:text-base"
+            className="mb-4 flex items-center gap-2 px-4 sm:px-6 py-2 rounded-full border-[#72B8EA] transition-colors text-sm sm:text-base"
           >
             <motion.span
-              className="px-2 sm:px-3 py-0.5 sm:py-1 text-xs rounded-full bg-secondary text-tertiary whitespace-nowrap"
+              className="px-2 sm:px-3 py-0.5 sm:py-1 text-xs rounded-full bg-[#72B8EA] text-black whitespace-nowrap"
               whileHover={{ scale: 1.05 }}
             >
               New
@@ -37,7 +37,7 @@ function HeroSection() {
               Take a Look to the Latest
             </span>
             <span className="text-white sm:hidden">Latest</span>
-            <span className="text-secondary whitespace-nowrap">
+            <span className="text-[#72B8EA] whitespace-nowrap">
               Volunteers Opportunities
             </span>
           </Button>
@@ -70,7 +70,7 @@ function HeroSection() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Button variant="primary" textColor="secondary" className="text-tertiary">
+              <Button variant="primary" textColor="secondary" className="bg-[#EF565C] border-[#EF565C] text-black">
                 I'm a Foundation
               </Button>
             </motion.div>
@@ -78,7 +78,7 @@ function HeroSection() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Button variant="secondary" textColor="secondary" className="!bg-background">
+              <Button variant="secondary" textColor="secondary" className="!border-[#72B8EA] text-[#72B8EA]">
                 Start as Volunteer
               </Button>
             </motion.div>

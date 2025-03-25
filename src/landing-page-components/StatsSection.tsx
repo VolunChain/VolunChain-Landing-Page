@@ -49,7 +49,7 @@ const StatsSection = () => {
               We will help you to achieve the same as a company or volunteer!
             </motion.p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button variant="primary" textColor="black" type="button">
+              <Button variant="primary" textColor="black" type="button" className="bg-[#EF565C]">
                 Let&apos;s get started
               </Button>
             </motion.div>
@@ -70,7 +70,7 @@ const StatsSection = () => {
                   variants={fadeInUp}
                 >
                   <CountUp endValue={parseValue(stat.value)} />
-                  <span className="text-blue">+</span>
+                  <span className="text-[#72B8EA]">+</span>
                 </motion.p>
                 <p className="text-sm font-kantumruy sm:text-base">
                   {stat.label}
