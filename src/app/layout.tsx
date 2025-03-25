@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={${geistSans.variable} ${geistMono.variable} ${fustat.variable}}
+      className={`${geistSans.variable} ${geistMono.variable} ${fustat.variable}`}
     >
       <head>
         <link rel="icon" href="/logo.png" sizes="any" />
